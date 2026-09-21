@@ -8,7 +8,7 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- Khối 1: Màu Xanh Dương -->
+    <!-- Xanh dương -->
     <TextView
         android:id="@+id/tv1"
         android:layout_width="0dp"
@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Khối 2: Màu Đỏ -->
+    <!-- Đỏ -->
     <TextView
         android:id="@+id/tv2"
         android:layout_width="0dp"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toEndOf="@+id/tv1"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Khối 3: Màu Vàng -->
+    <!-- Vàng -->
     <TextView
         android:id="@+id/tv3"
         android:layout_width="0dp"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
-    <!-- Khối 4: Màu Xanh Lá -->
+    <!-- Xanh lá -->
     <TextView
         android:id="@+id/tv4"
         android:layout_width="0dp"
@@ -76,7 +76,7 @@
         app:layout_constraintStart_toEndOf="@+id/tv3"
         app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
-    <!-- Khối 5: Màu Tím -->
+    <!-- Tím -->
     <TextView
         android:id="@+id/tv5"
         android:layout_width="0dp"
@@ -93,7 +93,7 @@
         app:layout_constraintStart_toEndOf="@+id/tv4"
         app:layout_constraintTop_toBottomOf="@+id/tv2" />
 
-    <!-- Khối 6: Màu Cam -->
+    <!-- Cam -->
     <TextView
         android:id="@+id/tv6"
         android:layout_width="0dp"
@@ -109,7 +109,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv3" />
 
-    <!-- Dòng Họ và tên - MSSV ở đáy màn hình -->
     <TextView
         android:id="@+id/tvStudentInfo"
         android:layout_width="wrap_content"
